@@ -16,7 +16,7 @@ jobs:
     # This section lists the steps in the job
     steps:
       # This is the required step with your email in the name
-      - name: 24f2000323@ds.study.iitw.ac.in
+      - name: 24f2000323@ds.study.iitm.ac.in
         run: echo "Hello, World! This step ran successfully."
 
       # Another example step
