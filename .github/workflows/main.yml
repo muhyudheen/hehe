@@ -1,24 +1,6 @@
-# This is the name of the GitHub Action workflow
-name: My First Workflow
-
-# This section defines when the action should run
-on:
-  # We'll trigger it on any push to the main branch
-  push:
-    branches: [ main, master ]
-
-# This section defines the jobs to be run
 jobs:
   test:
-    # This specifies the operating system to run the job on
-    runs-on: ubuntu-latest
-
-    # This section lists the steps in the job
     steps:
-      # This is the required step with your email in the name
       - name: 24f2000323@ds.study.iitm.ac.in
-        run: echo "Hello, World! This step ran successfully."
-
-      # Another example step
-      - name: Print a goodbye message
-        run: echo "Goodbye!"
+        run: echo "Hello, world!"
+      
